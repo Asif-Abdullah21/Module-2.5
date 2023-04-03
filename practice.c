@@ -11,16 +11,40 @@
 //     return 0;
 // }
 
+// #include<stdio.h>
+// int main()
+// {
+//     int a,b;
+//     scanf("%d %d",&a,&b);
+//    // float div = a*1.0/b;
+//     printf("%d + %d = %d\n",a,b,a+b);
+//     printf("%d - %d = %d\n",a,b,a-b);
+//     printf("%d * %d = %d\n",a,b,a*b);
+//     printf("%d / %d = %.2f\n",a,b,a*1.0/b);
+
+//     return 0;
+// }
+
+// #include<stdio.h>
+// int main()
+// {
+//     int n;
+//     scanf("%d",&n);
+//     if(n%2==0) printf("even\n");
+//     else printf("odd\n");
+
+//     return 0;
+// }
+
+
 #include<stdio.h>
 int main()
 {
-    int a,b;
-    scanf("%d %d",&a,&b);
-    float div = a*1.0/b;
-    printf("%d + %d = %d\n",a,b,a+b);
-    printf("%d - %d = %d\n",a,b,a-b);
-    printf("%d * %d = %d\n",a,b,a*b);
-    printf("%d / %d = %.2f\n",a,b,a*1.0/b);
+    int n;
+    scanf("%d",&n);
+    if(n>0) printf("positive\n");
+    else if(n<0) printf("negative\n");
+    else printf("zero\n");
 
     return 0;
 }
